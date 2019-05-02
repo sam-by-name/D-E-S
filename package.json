@@ -1,0 +1,10 @@
+{
+  "name": "SandyDanders",
+  "version": "1.0.0",
+  "description": "all about sis",
+  "main": "index.js",
+  "repository": "https://github.com/sam-by-name/D-E-S.git",
+  "author": "Sam.L.Sanders",
+  "license": "MIT",
+  "private": false
+}
