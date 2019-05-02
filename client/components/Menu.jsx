@@ -1,9 +1,12 @@
 import React, {Component} from 'react'
+import Title from './Title'
 
 class Menu extends Component {
   render() {
     return (
-      <h1>D-E-S development has begun!</h1>
+      <div>
+        <Title />
+      </div>
     )
   }
 }
