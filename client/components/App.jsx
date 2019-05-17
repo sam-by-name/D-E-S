@@ -13,7 +13,7 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <Route path='/menu' component={Menu} />
+          <Route path='/menu' component={Menu} />
       </Router>
     )
   }

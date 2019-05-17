@@ -228,8 +228,10 @@ __webpack_require__.r(__webpack_exports__);
 
 var Title = function Title() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "titleCont"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     "class": "title"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "The magical"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "The mythical"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Dandy Eleanor Sanders"));
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Dandy Eleanor Sanders"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Passionate, design and creation")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Title);

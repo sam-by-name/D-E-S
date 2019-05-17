@@ -2,10 +2,11 @@ import React from 'react'
 
 const Title = () => {
   return (
-    <div class="title">
-      <h3>The magical</h3>
-      <h2>The mythical</h2>
-      <h1>Dandy Eleanor Sanders</h1>
+    <div class='titleCont'>
+      <div class="title">
+        <h1>Dandy Eleanor Sanders</h1>
+        <h2>Passionate, design and creation</h2>
+      </div>
     </div>
   )
 }
