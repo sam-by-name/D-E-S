@@ -1,9 +1,19 @@
-body {
+html, body {
+  top: 0;
   width: 100%;
   height: 100%;
   background-color: rgb(14, 14, 14);
   margin: 0;
-  padding: 0;
+  /* padding: 0; */
+  position: relative;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  /* position: absolute; */
+
 }
 
 h1 {
@@ -15,13 +25,17 @@ h2 {
 }
 
 .titleCont {
-  width:
+  width: 100%;
+  height: 100%;
 }
 
 .title {
   position: center;
   text-align: center;
+  line-height: center;
   background-color: #978f8f;
-  width: 50%;
+  width:  40%;
+  /* height: 20%; */
   margin: 0 auto;
+  padding: 5% 0;
 }

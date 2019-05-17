@@ -1,12 +1,12 @@
-import React, {Component} from 'react'
+import React, {Component, Fragment} from 'react'
 import Title from './Title'
 
 class Menu extends Component {
   render() {
     return (
-      <div>
+      <Fragment>
         <Title />
-      </div>
+      </Fragment>
     )
   }
 }
