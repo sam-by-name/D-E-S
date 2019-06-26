@@ -22,26 +22,28 @@ html, body {
 
 h1 {
   color: green;
+  margin: 0;
 }
 
 h2 {
   color: purple;
+  margin: 0;
 }
 
 .titleCont {
+  /* position: relative; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   height: 20%;
 }
 
 .title {
-  position: center;
   text-align: center;
-  line-height: center;
   background-color: #978f8f;
   width:  40%;
-  /* height: 20%; */
-  margin: 0 auto;
-  padding: 5% 0;
+  vertical-align: center,
 }
 
 .examplesCont {
