@@ -1,6 +1,6 @@
-import React from 'react'
+import React, {Fragment, Component} from 'react'
 
-class Examples extends component {
+class Examples extends Component {
   constructor (props) {
     super(props) 
     this.state = {
@@ -10,7 +10,7 @@ class Examples extends component {
   render () {
     return (
       <Fragment>
-        <div>
+        <div style={{color: 'red'}}>
           I am example number one
         </div>
       </Fragment>
