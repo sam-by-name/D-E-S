@@ -43,3 +43,9 @@ h2 {
   margin: 0 auto;
   padding: 5% 0;
 }
+
+.examplesCont {
+  width: 100%;
+  height: 60%;
+  color: red;
+}

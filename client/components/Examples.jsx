@@ -10,7 +10,7 @@ class Examples extends Component {
   render () {
     return (
       <Fragment>
-        <div style={{color: 'red'}}>
+        <div className='examplesCont'>
           I am example number one
         </div>
       </Fragment>
