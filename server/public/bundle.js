@@ -214,6 +214,8 @@ function (_Component) {
     key: "render",
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_photo_gallery__WEBPACK_IMPORTED_MODULE_1__["default"], {
+        margin: 10,
+        columns: 3,
         photos: PHOTOS
       }) // <Fragment>
       //   <div className='examplesCont'>
@@ -230,8 +232,8 @@ function (_Component) {
 /* harmony default export */ __webpack_exports__["default"] = (Examples);
 var PHOTOS = [{
   src: '/images/dandy.jpg',
-  width: 4,
-  hight: 3
+  width: 480,
+  hight: 360
 }, {
   src: '/images/dandyDraw.jpg',
   width: 4,

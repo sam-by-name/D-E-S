@@ -10,7 +10,7 @@ class Examples extends Component {
   }
   render () {
     return (
-          <Gallery photos={PHOTOS} />
+          <Gallery margin={10} columns={3} photos={PHOTOS} />
       // <Fragment>
       //   <div className='examplesCont'>
       //     {/* I am example number one */}
@@ -25,8 +25,8 @@ export default Examples
 const PHOTOS = [
   {
     src: '/images/dandy.jpg',
-    width: 4,
-    hight: 3
+    width: 480,
+    hight: 360
   },
   {
     src: '/images/dandyDraw.jpg',
