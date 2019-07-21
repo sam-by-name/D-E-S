@@ -299,7 +299,7 @@ var Title = function Title() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "columns is-centered"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "column is-half title"
+    className: "column is-narrow is-half title"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Dandy Eleanor Sanders"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Passionate, design and creation")));
 };
 
