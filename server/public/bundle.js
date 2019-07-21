@@ -297,9 +297,9 @@ __webpack_require__.r(__webpack_exports__);
 
 var Title = function Title() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "titleCont"
+    className: "columns is-centered"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "title"
+    className: "column is-half title"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Dandy Eleanor Sanders"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Passionate, design and creation")));
 };
 
@@ -24288,7 +24288,7 @@ if (false) {} else {
 /*!***************************************************************!*\
   !*** ./node_modules/react-router-dom/esm/react-router-dom.js ***!
   \***************************************************************/
-/*! exports provided: BrowserRouter, HashRouter, Link, NavLink, MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext */
+/*! exports provided: MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext, BrowserRouter, HashRouter, Link, NavLink */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
