@@ -1,4 +1,5 @@
 import React, {Fragment, Component} from 'react'
+import Gallery from 'react-photo-gallery';
 
 class Examples extends Component {
   constructor (props) {
@@ -9,13 +10,39 @@ class Examples extends Component {
   }
   render () {
     return (
-      <Fragment>
-        <div className='examplesCont'>
-          I am example number one
-        </div>
-      </Fragment>
+          <Gallery photos={PHOTOS} />
+      // <Fragment>
+      //   <div className='examplesCont'>
+      //     {/* I am example number one */}
+      //   </div>
+      // </Fragment>
     )  
   }
 }
 
 export default Examples
+
+const PHOTOS = [
+  {
+    src: '/images/dandy.jpg',
+    width: 4,
+    hight: 3
+  },
+  {
+    src: '/images/dandyDraw.jpg',
+    width: 4,
+    hight: 4
+  },
+  {
+    src: '/images/dandyCon.jpg',
+    width: 4,
+    hight: 4,
+    margin: 100
+  },
+  {
+    src: '/images/dandy.jpg',
+    width: 4,
+    hight: 4
+  },
+
+]
