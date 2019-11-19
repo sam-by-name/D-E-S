@@ -214,7 +214,7 @@ function (_Component) {
     key: "render",
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_photo_gallery__WEBPACK_IMPORTED_MODULE_1__["default"], {
-        margin: 10,
+        margin: 1,
         columns: 3,
         photos: PHOTOS
       }) // <Fragment>
@@ -232,21 +232,55 @@ function (_Component) {
 /* harmony default export */ __webpack_exports__["default"] = (Examples);
 var PHOTOS = [{
   src: '/images/dandy.jpg',
-  width: 480,
-  hight: 360
+  width: 4,
+  height: 3
 }, {
   src: '/images/dandyDraw.jpg',
   width: 4,
-  hight: 4
+  height: 3
 }, {
   src: '/images/dandyCon.jpg',
   width: 4,
-  hight: 4,
-  margin: 100
+  height: 4 // margin: 100
+
 }, {
   src: '/images/dandy.jpg',
   width: 4,
-  hight: 4
+  height: 3
+}, {
+  src: '/images/dandy.jpg',
+  width: 4,
+  height: 3
+}, {
+  src: '/images/dandyDraw.jpg',
+  width: 4,
+  height: 3
+}, {
+  src: '/images/dandyCon.jpg',
+  width: 4,
+  height: 4 // margin: 100
+
+}, {
+  src: '/images/dandy.jpg',
+  width: 4,
+  height: 3
+}, {
+  src: '/images/dandy.jpg',
+  width: 4,
+  height: 3
+}, {
+  src: '/images/dandyDraw.jpg',
+  width: 4,
+  height: 3
+}, {
+  src: '/images/dandyCon.jpg',
+  width: 4,
+  height: 4 // margin: 100
+
+}, {
+  src: '/images/dandy.jpg',
+  width: 4,
+  height: 3
 }];
 
 /***/ }),
