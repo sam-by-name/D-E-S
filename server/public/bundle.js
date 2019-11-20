@@ -215,14 +215,9 @@ function (_Component) {
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_photo_gallery__WEBPACK_IMPORTED_MODULE_1__["default"], {
         margin: 1,
-        columns: 3,
+        columns: 10,
         photos: PHOTOS
-      }) // <Fragment>
-      //   <div className='examplesCont'>
-      //     {/* I am example number one */}
-      //   </div>
-      // </Fragment>
-      ;
+      });
     }
   }]);
 

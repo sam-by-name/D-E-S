@@ -10,12 +10,7 @@ class Examples extends Component {
   }
   render () {
     return (
-          <Gallery margin={1} columns={3} photos={PHOTOS} />
-      // <Fragment>
-      //   <div className='examplesCont'>
-      //     {/* I am example number one */}
-      //   </div>
-      // </Fragment>
+      <Gallery margin={1} columns={10} photos={PHOTOS} />
     )  
   }
 }
